@@ -64,7 +64,7 @@ while True:
                        "Sim/Não: ").lower()
     
     while continuar not in ["sim" , "não"]:
-        continuar = input("Opção inválida digite novamente: ")
+        continuar = input("Opção inválida digite novamente: ").lower()
 
     if continuar != "sim":
         print("adeus")
