@@ -55,7 +55,7 @@ while True:
     escolha = input ("add/sub/mult/div: ").lower()
 
     while escolha not in ["add", "sub", "mult", "div"]:
-        escolha = input("operação não reconhecida, escolha novamente: ")
+        escolha = input("operação não reconhecida, escolha novamente: ").lower()
 
     flashcard(escolha)
 
