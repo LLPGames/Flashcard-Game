@@ -68,3 +68,4 @@ while True:
 
     if continuar != "sim":
         print("adeus")
+        break
