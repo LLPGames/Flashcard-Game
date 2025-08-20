@@ -69,7 +69,7 @@ while True:
     while continuar not in ["sim", "não"]:
         continuar = input("Opção inválida, digite novamente: ").lower()
 
-    # Se a resposta não for "sim", encerra o jogo
-    if continuar != "sim":
+    # Se a resposta for não, encerra o jogo
+    if continuar == "não":
         print("Adeus")
         break
