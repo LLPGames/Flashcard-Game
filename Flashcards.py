@@ -9,7 +9,6 @@ operacoes = {
     "add": ("+", operator.add),     # Soma
     "sub": ("-", operator.sub),     # Subtração
     "mult": ("x", operator.mul),    # Multiplicação
-    "div": ("/", operator.floordiv) # Divisão inteira
 }
 
 def flashcard(escolha):
